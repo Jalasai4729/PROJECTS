@@ -1,0 +1,4 @@
+../Core/Src/RTC.c:28:5:BCD_To_DEC	16	static
+../Core/Src/RTC.c:39:5:DEC_To_BCD	16	static
+../Core/Src/RTC.c:48:6:RTC_Read	32	static
+../Core/Src/RTC.c:139:19:RTC_SetTimeDate	48	static
