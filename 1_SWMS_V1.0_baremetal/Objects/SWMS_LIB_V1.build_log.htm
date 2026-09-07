@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: jala sai, lenovo, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\sai\OneDrive\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\LIBRARY\SWMS_V1.1\SWMS_LIB\raayanmini.uvprojx
+Project File Date:  02/23/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling systicktimer.c...
+compiling lcd.c...
+compiling GPIO.c...
+compiling main.c...
+.\INC\../inc/USART6.h(6): warning:  #1295-D: Deprecated declaration KM_USART6_IN_CHAR - give arg types
+  char KM_USART6_IN_CHAR();
+.\INC\../inc/WIFI.h(33): warning:  #1295-D: Deprecated declaration WIFI_STATUS_RESPONSE - give arg types
+  int WIFI_STATUS_RESPONSE();
+.\INC\../inc/WIFI.h(34): warning:  #1295-D: Deprecated declaration WIFI_START_OK_RESPONSE - give arg types
+  int WIFI_START_OK_RESPONSE();
+.\INC\../inc/ADC1.h(29): warning:  #1-D: last line of file ends without a newline
+  #define*/
+main.c: 4 warnings, 0 errors
+compiling ADC1.c...
+SRC\../inc/ADC1.h(29): warning:  #1-D: last line of file ends without a newline
+  #define*/
+SRC\ADC1.c(36): warning:  #1-D: last line of file ends without a newline
+  	
+SRC\ADC1.c: 2 warnings, 0 errors
+compiling USART6.c...
+SRC\../inc/USART6.h(6): warning:  #1295-D: Deprecated declaration KM_USART6_IN_CHAR - give arg types
+  char KM_USART6_IN_CHAR();
+SRC\../inc/WIFI.h(33): warning:  #1295-D: Deprecated declaration WIFI_STATUS_RESPONSE - give arg types
+  int WIFI_STATUS_RESPONSE();
+SRC\../inc/WIFI.h(34): warning:  #1295-D: Deprecated declaration WIFI_START_OK_RESPONSE - give arg types
+  int WIFI_START_OK_RESPONSE();
+SRC\USART6.c: 3 warnings, 0 errors
+compiling WIFI.c...
+SRC\../inc/USART6.h(6): warning:  #1295-D: Deprecated declaration KM_USART6_IN_CHAR - give arg types
+  char KM_USART6_IN_CHAR();
+SRC\../inc/WIFI.h(33): warning:  #1295-D: Deprecated declaration WIFI_STATUS_RESPONSE - give arg types
+  int WIFI_STATUS_RESPONSE();
+SRC\../inc/WIFI.h(34): warning:  #1295-D: Deprecated declaration WIFI_START_OK_RESPONSE - give arg types
+  int WIFI_START_OK_RESPONSE();
+SRC\WIFI.c(279): warning:  #940-D: missing return statement at end of non-void function "WIFI_STATUS_RESPONSE"
+  }
+SRC\WIFI.c: 4 warnings, 0 errors
+creating Library...
+".\Objects\SWMS_LIB_V1.lib" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::Device:Startup:2.6.3
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\sai\OneDrive\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\LIBRARY\SWMS_V1.1\SWMS_LIB\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   MDK\Device\Source\ARM\STM32F401xx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xc.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

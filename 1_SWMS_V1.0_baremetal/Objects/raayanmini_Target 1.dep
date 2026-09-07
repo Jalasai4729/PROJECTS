@@ -1,0 +1,58 @@
+Dependencies for Project 'raayanmini', Target 'Target 1': (DO NOT MODIFY !)
+F (.\INC\GPIO.h)(0x6999A45E)()
+F (.\INC\lcd.h)(0x6999A458)()
+F (.\INC\STM32F401RBT6.h)(0x69AD4199)()
+F (.\INC\systicktimer.h)(0x69A15DC2)()
+F (.\INC\USART6.h)(0x69AD4165)()
+F (.\INC\WIFI.h)(0x6A9EBAC1)()
+F (.\INC\ADC1.h)(0x698FFDCA)()
+F (.\SRC\ADC1.c)(0x69AD4B0A)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\INC-I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\adc1.o --omf_browse .\objects\adc1.crf --depend .\objects\adc1.d)
+I (SRC\../inc/STM32F401RBT6.h)(0x69AD4199)
+I (SRC\../inc/GPIO.h)(0x6999A45E)
+I (SRC\../inc/LCD.h)(0x6999A458)
+I (SRC\../inc/systicktimer.h)(0x69A15DC2)
+I (SRC\../inc/ADC1.h)(0x698FFDCA)
+F (.\SRC\GPIO.c)(0x69A6DFE8)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\INC-I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (SRC\../inc/stm32f401rbt6.h)(0x69AD4199)
+I (SRC\../inc/GPIO.h)(0x6999A45E)
+F (.\SRC\lcd.c)(0x69A2964E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\INC-I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (SRC\../inc/lcd.h)(0x6999A458)
+I (SRC\../inc/stm32f401rbt6.h)(0x69AD4199)
+I (SRC\../inc/systicktimer.h)(0x69A15DC2)
+I (SRC\../inc/GPIO.h)(0x6999A45E)
+F (.\SRC\systicktimer.c)(0x69A3D6C5)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\INC-I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\systicktimer.o --omf_browse .\objects\systicktimer.crf --depend .\objects\systicktimer.d)
+I (SRC\../inc/STM32F401RBT6.h)(0x69AD4199)
+I (SRC\../inc/systicktimer.h)(0x69A15DC2)
+F (.\SRC\USART6.c)(0x69AD49D7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\INC-I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\usart6.o --omf_browse .\objects\usart6.crf --depend .\objects\usart6.d)
+I (SRC\../inc/stm32f401rbt6.h)(0x69AD4199)
+I (SRC\../inc/GPIO.h)(0x6999A45E)
+I (SRC\../inc/systicktimer.h)(0x69A15DC2)
+I (SRC\../inc/USART6.h)(0x69AD4165)
+I (SRC\../inc/WIFI.h)(0x6A9EBAC1)
+F (.\SRC\WIFI.c)(0x6A9EBAC0)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\INC-I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\wifi.o --omf_browse .\objects\wifi.crf --depend .\objects\wifi.d)
+I (SRC\../inc/stm32f401rbt6.h)(0x69AD4199)
+I (SRC\../inc/GPIO.h)(0x6999A45E)
+I (SRC\../inc/systicktimer.h)(0x69A15DC2)
+I (SRC\../inc/USART6.h)(0x69AD4165)
+I (SRC\../inc/WIFI.h)(0x6A9EBAC1)
+I (SRC\../inc/lcd.h )(0x6999A458)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55DB4E9E)
+F (.\main.c)(0x69AD51B0)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\INC-I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\INC\../inc/stm32f401rbt6.h)(0x69AD4199)
+I (.\INC\../inc/GPIO.h)(0x6999A45E)
+I (.\INC\../inc/systicktimer.h)(0x69A15DC2)
+I (.\INC\../inc/USART6.h)(0x69AD4165)
+I (.\INC\../inc/WIFI.h)(0x6A9EBAC1)
+I (.\INC\../inc/lcd.h )(0x6999A458)
+I (.\INC\../inc/ADC1.h)(0x698FFDCA)
+F (RTE\Device\STM32F401RBTx\startup_stm32f401xc.s)(0x63746D12)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F401xC SETA 1"--list .\listings\startup_stm32f401xc.lst --xref -o .\objects\startup_stm32f401xc.o --depend .\objects\startup_stm32f401xc.d)
+F (RTE\Device\STM32F401RBTx\system_stm32f4xx.c)(0x63746D12)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\INC-I "C:\Users\sai\Desktop\Documents\1_raayanmini assignments\3_PROJECTS\SWMS_V1.O\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x63746D12)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x63746D12)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625DA34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x63746D12)
