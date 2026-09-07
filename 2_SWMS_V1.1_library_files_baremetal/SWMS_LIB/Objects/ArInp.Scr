@@ -1,0 +1,8 @@
+--create .\Objects\SWMS_LIB_V1.lib
+.\objects\adc1.o
+.\objects\gpio.o
+.\objects\lcd.o
+.\objects\systicktimer.o
+.\objects\usart6.o
+.\objects\wifi.o
+.\objects\main.o
