@@ -1,0 +1,4 @@
+../Core/Src/RTC.c:26:5:BCD_To_DEC	1
+../Core/Src/RTC.c:37:5:DEC_To_BCD	1
+../Core/Src/RTC.c:46:19:RTC_Read	2
+../Core/Src/RTC.c:91:19:RTC_SetTimeDate	1

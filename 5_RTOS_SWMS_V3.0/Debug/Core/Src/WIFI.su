@@ -1,0 +1,12 @@
+../Core/Src/WIFI.c:29:5:IS_WIFI_FOUND	16	static
+../Core/Src/WIFI.c:40:5:WIFI_OK_RESPONSE	16	static
+../Core/Src/WIFI.c:58:5:IS_WIFI_CONNECTED	16	static
+../Core/Src/WIFI.c:94:5:WIFI_JAPQ_RESPONSE	16	static
+../Core/Src/WIFI.c:117:5:WIFI_INIT	16	static
+../Core/Src/WIFI.c:193:5:WIFI_JAP_RESPONSE	16	static
+../Core/Src/WIFI.c:216:6:KM_WIFI_OPERATION	16	static
+../Core/Src/WIFI.c:232:5:KM_WIFI_PUSH_SERVER	16	static
+../Core/Src/WIFI.c:260:5:WIFI_STATUS_RESPONSE	16	static
+../Core/Src/WIFI.c:280:5:WIFI_START_OK_RESPONSE	16	static
+../Core/Src/WIFI.c:298:5:MY_STRLENGTH	24	static
+../Core/Src/WIFI.c:310:5:RESULT_RESPONSE	16	static
