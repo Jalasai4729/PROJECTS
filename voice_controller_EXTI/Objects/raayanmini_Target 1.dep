@@ -1,0 +1,51 @@
+Dependencies for Project 'raayanmini', Target 'Target 1': (DO NOT MODIFY !)
+F (.\INC\GPIO.h)(0x6A0D8A29)()
+F (.\INC\lcd.h)(0x6999A458)()
+F (.\INC\STM32F401RBT6.h)(0x6A0D8A29)()
+F (.\INC\systicktimer.h)(0x699DB548)()
+F (.\main.c)(0x6A0E0B49)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\inc\stm32f401rbt6.h)(0x6A0D8A29)
+I (C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\inc\GPIO.h)(0x6A0D8A29)
+I (C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\inc\lcd.h)(0x6999A458)
+I (C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\inc\systicktimer.h)(0x699DB548)
+I (C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\inc\SYSCFG.h)(0x699705AD)
+I (C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\inc\USART2.h)(0x6A05952E)
+I (C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\inc\CONTROLLING.h)(0x6A0D4F53)
+F (.\SRC\GPIO.c)(0x6A0D8A29)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (SRC\../inc/stm32f401rbt6.h)(0x6A0D8A29)
+I (SRC\../inc/GPIO.h)(0x6A0D8A29)
+F (.\SRC\lcd.c)(0x6A06EB40)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (SRC\../inc/lcd.h)(0x6999A458)
+I (SRC\../inc/stm32f401rbt6.h)(0x6A0D8A29)
+I (SRC\../inc/systicktimer.h)(0x699DB548)
+I (SRC\../inc/GPIO.h)(0x6A0D8A29)
+F (.\SRC\systicktimer.c)(0x699DB77E)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\systicktimer.o --omf_browse .\objects\systicktimer.crf --depend .\objects\systicktimer.d)
+I (SRC\../inc/STM32F401RBT6.h)(0x6A0D8A29)
+I (SRC\../inc/systicktimer.h)(0x699DB548)
+F (.\INC\SYSCFG.h)(0x699705AD)()
+F (.\SRC\SYSCFG.c)(0x6A06A64B)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\syscfg.o --omf_browse .\objects\syscfg.crf --depend .\objects\syscfg.d)
+I (SRC\../inc/stm32f401rbt6.h)(0x6A0D8A29)
+I (SRC\../inc/GPIO.h)(0x6A0D8A29)
+I (SRC\../inc/SYSCFG.h)(0x699705AD)
+F (.\INC\USART2.h)(0x6A05952E)()
+F (.\SRC\USART2.c)(0x6A06B8A9)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\usart2.o --omf_browse .\objects\usart2.crf --depend .\objects\usart2.d)
+I (SRC\../inc/stm32f401rbt6.h)(0x6A0D8A29)
+I (SRC\../inc/GPIO.h)(0x6A0D8A29)
+I (SRC\../inc/systicktimer.h)(0x699DB548)
+I (SRC\../inc/USART2.h)(0x6A05952E)
+F (.\INC\CONTROLLING.h)(0x6A0D4F53)()
+F (.\SRC\CONTROLLING.c)(0x6A0E0CA0)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\controlling.o --omf_browse .\objects\controlling.crf --depend .\objects\controlling.d)
+I (SRC\../inc/stm32f401rbt6.h)(0x6A0D8A29)
+I (SRC\../inc/GPIO.h)(0x6A0D8A29)
+I (SRC\../inc/CONTROLLING.h)(0x6A0D4F53)
+F (RTE\Device\STM32F401RBTx\startup_stm32f401xc.s)(0x63746D12)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 517" --pd "_RTE_ SETA 1" --pd "STM32F401xC SETA 1"--list .\listings\startup_stm32f401xc.lst --xref -o .\objects\startup_stm32f401xc.o --depend .\objects\startup_stm32f401xc.d)
+F (RTE\Device\STM32F401RBTx\system_stm32f4xx.c)(0x63746D12)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork --split_sections-I "C:\Users\sai\OneDrive\Desktop\Documents\4_second_project\6___3.0_voice_controller_EXTI -\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="517" -D_RTE_ -DSTM32F401xC-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x63746D12)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xc.h)(0x63746D12)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625DA34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB4EA8)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmSimd.h)(0x5625C678)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x63746D12)
